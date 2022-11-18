@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import '~mdb-ui-kit/css/mdb.min.css';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.7s;
+    z-index: 10;
+}
+header.abajo {
+    background-color: white;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 100%;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 120px;
+}
+header.abajo .logo {
+    padding-top: 5px;
+    width: 100px;
+    height: 100px;
+    transition: 0.4s;
+}
+/* ESTILOS BARRA NAVEGACION INDEX */
+.barraNavegacion {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.7s;
+}
+.barraNavegacion li a,
+.barraNavegacion p {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+.barraNavegacion li a:hover {
+    padding: 5px 10px;
+    background: white;
+    color: #D16A00;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 15px;
+}
+.abajo .barraNavegacion li a:hover {
+    padding: 5px 10px;
+    background: #D16A00;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 15px;
+}
+.abajo .barraNavegacion li a {
+    color: #D16A00;
+}
+#activo{
+    padding: 5px 10px;
+    background: #D16A00;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    border: 5px solid white;
+    /* font-size: 10px; */
+}
+#activo:hover {
+    padding: 5px 10px;
+    background: white;
+    color: #D16A00;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 15px;
+}
+.iconos {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.iconos .color {
+    color: #D16A00;
+}
+.color:hover {
+    cursor: pointer;
+}
+.otro {
+    background-color: #D16A00;
+    height: 120px;
+}
+.color-carrito {
+    color: #D16A00;
+}
+/* FIN ESTILOS BARRA NAVEGACION INDEX */
+
+.fondo {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/fondo1.jpg);
+    /* position: relative; */
+    background-size: cover;
+    background-position: right center;
+}
+.fondo-blur {
+    /* filter: blur(4px); */
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/fondo1.jpg);
+    /* position: relative; */
+    background-size: cover;
+    background-position: right center;
+    backdrop-filter: blur(10px);
+}
+/* FIN ESTILOS HEADER */
+
+/* ESPACIOS */
+.m-t-s {
+    margin-top: 20px;
+}
+.espacio100px {
+    height: 100PX;
+    width: 100PX;
+}
+.espacio50px {
+    height: 50px;
+    width: 50px;
+}
+.margin-total {
+    margin: 10px;
+}
+.m-b-30px {
+    margin-bottom: 30px;
+}
+.espacio-nav {
+    height: 100px;
+    background-color: red;
+}
+/* FIN ESPACIO */
+
+.col-4 p {
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+.colorPlomo {
+    background-color: #E0E0E2;
+}
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-4 p {
+    text-align: left;
+}
+.subTitulo {
+    /* font-weight: 400; */
+    color: #D16A00B3;
+}
+.negrita {
+    font-weight: bolder;
+    color: #D16A00;
+    font-size: 50px;
+}
+.card img {
+    width: 350px;
+    height: 350px;
+}
+.color-texto {
+    color: #D16A00;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* PARA EL CARRITO DE COMPRA */
+.modals {
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    right: 0;
+    /* bottom: 0; */
+    background-color: #d169003b;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 120px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modals--show {
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+}
+.modal__container {
+    margin: 10px;
+    /* width: 90%;
+    height: 90%; */
+    max-width: 600px;
+    /* max-height: 90%; */
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1em 2em;
+    /* display: grid; */
+    /* gap: 1em; */
+    /* place-items: center; */
+    /* grid-column: 100%; */
+}
+.modal__title {
+    font-size: 20px;
+}
+.modal__img {
+    width: 90%;
+    max-width: 100px;
+}
+#cargando {
+    display: none;
+}
+#loaders img{
+    width: 150px;
+}
+#subtotal, #igv, #total {
+    margin: 0;
+    /* font-size: 0px; */
+}
+#justificado {
+    text-align: justify;
+}
+
+/* Login */
+.login-principal {
+    width: 100%;
+    height: 100%;
+    /* backdrop-filter: blur(0); */
+
+}
+.login {
+    /* border: 1px red solid; */
+    width: 500px;
+    height: 600px;
+    background-color: #ffffff9c;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px black;
+}
+.prueba {
+    /* z-index: 10; */
+    width: 500px;
+    height: 500px;
+}
+.datos {
+    width: 100%;
+    height: 100%;
+}
