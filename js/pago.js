@@ -3,7 +3,7 @@ $(function () {
         var img = $('<img/>',
             {
                 id: 'formaPago',
-                src: '../img/yape.jpg',
+                src: 'img/yape.jpg',
                 alt: 'Pago en Yape',
                 width: '300',
                 transition: '5s'
