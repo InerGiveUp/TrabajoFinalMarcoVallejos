@@ -1,6 +1,6 @@
 $(function () {
     $('.click-aqui').click(function () {
-        var img = $('img',
+        var img = $('<img />',
             {
                 id: 'formaPago',
                 src: '../img/yape.jpg',
