@@ -18,17 +18,18 @@ LocalStorage.
 - remi1-5@hotmail.com | 12345
 
 ## VISTA PREVIA
-#### Pagina Principal:
+La pagina se encuentra publicada en GitHub Pages, puedes acceder a ella haciendo [click aqui](https://marcoantonio159.github.io/PasteleriaMechita/).
+### Pagina Principal:
 ![](https://github.com/MarcoAntonio159/PasteleriaMechita/blob/main/Git/Imagen/chrome_JBeSoEjtvQ.jpg?raw=true)
-#### Productos:
+### Productos:
 ![](https://github.com/MarcoAntonio159/PasteleriaMechita/blob/main/Git/Imagen/chrome_UfUBlNa8Tc.png?raw=true)
-#### Carrito de Compras:
+### Carrito de Compras:
 ![](https://github.com/MarcoAntonio159/PasteleriaMechita/blob/main/Git/Imagen/chrome_TTc7dffy8p.png?raw=true)
-#### Proceso de Compra:
+### Proceso de Compra:
 ![](https://github.com/MarcoAntonio159/PasteleriaMechita/blob/main/Git/Imagen/chrome_KiY7BYDQVv.png?raw=true)
-#### Login (*vista: dueño del negocio*):
+### Login (*vista: dueño del negocio*):
 ![](https://github.com/MarcoAntonio159/PasteleriaMechita/blob/main/Git/Imagen/chrome_znkCwXh9Ki.jpg?raw=true)
-#### Tablas para toma de decisiones (*vista: dueño del negocio*):
+### Tablas para toma de decisiones (*vista: dueño del negocio*):
 ![](https://github.com/MarcoAntonio159/PasteleriaMechita/blob/main/Git/Imagen/chrome_ug9JeUXlDi.png?raw=true)
 
 ## Autor
@@ -40,4 +41,3 @@ LocalStorage.
 Las contribuciones siempre son bienvenidas.
 
 `Enlace:` https://github.com/MarcoAntonio159/PasteleriaMechita.git .
-
