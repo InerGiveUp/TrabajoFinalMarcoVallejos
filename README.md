@@ -8,6 +8,8 @@ LocalStorage.
 > Proyecto realizado como trabajo final de la **Unidad 02 - Javascript** del curso **Desarrollador Web Full Stack** brindada por la Institución **Certus**, juntamente con el programa **Jovenes Bicentenario 3.0 del MTP**.
 
 ## TECNOLOGIAS
+- HTML
+- CSS
 - Bootstrap
 - JavaScript
 - jQuery
