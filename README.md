@@ -31,11 +31,11 @@ LocalStorage.
 #### Tablas para toma de decisiones (*vista: dueño del negocio*):
 ![](https://github.com/MarcoAntonio159/PasteleriaMechita/blob/main/Git/Imagen/chrome_ug9JeUXlDi.png?raw=true)
 
-## Authors
+## Autor
 
 - [@MarcoAntonio159](https://github.com/MarcoAntonio159) - Marco Antonio Vallejos Contreras
 
-## Contributing
+## Contribuciones
 
 Las contribuciones siempre son bienvenidas.
 
