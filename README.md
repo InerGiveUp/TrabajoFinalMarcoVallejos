@@ -5,7 +5,7 @@ Pagina web, dedicada a la venta de productos relacionados a la pasteleria. Conti
 listado de productos con carrito de compras y proceso de venta. Este proyecto contiene
 LocalStorage.
 
-> Proyecto realizado como trabajo final de la **Unidad 02 - Javascript** del curso **Desarrollador Web Full Stack** brindada por la Institución **Certus**, juntamente con el programa **Jovenes Bicentenario 3.0 del MTP **.
+> Proyecto realizado como trabajo final de la **Unidad 02 - Javascript** del curso **Desarrollador Web Full Stack** brindada por la Institución **Certus**, juntamente con el programa **Jovenes Bicentenario 3.0 del MTP **
 
 ## TECNOLOGIAS
 - Bootstrap
